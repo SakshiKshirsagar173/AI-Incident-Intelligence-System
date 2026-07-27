@@ -1,0 +1,24 @@
+{
+  "baseline_majority_class_accuracy": 0.271,
+  "best_model": "Random Forest",
+  "comparison": {
+    "Logistic Regression": {
+      "accuracy": 0.25,
+      "precision_macro": 0.238,
+      "recall_macro": 0.242,
+      "f1_macro": 0.235
+    },
+    "Linear SVM": {
+      "accuracy": 0.237,
+      "precision_macro": 0.219,
+      "recall_macro": 0.228,
+      "f1_macro": 0.218
+    },
+    "Random Forest": {
+      "accuracy": 0.296,
+      "precision_macro": 0.3,
+      "recall_macro": 0.297,
+      "f1_macro": 0.297
+    }
+  }
+}

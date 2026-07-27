@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+.git/
+.gitignore
+.venv/
+venv/
+*.egg-info/
+
+# Training-time only -- not needed in the runtime image
+data/
+src/
+
+# Local dev artifacts
+*.log
+.DS_Store

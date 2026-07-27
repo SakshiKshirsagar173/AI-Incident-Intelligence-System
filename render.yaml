@@ -1,0 +1,11 @@
+# Render Blueprint -- https://render.com/docs/blueprint-spec
+# Lets Render auto-detect this service's config when you connect the repo.
+# You can also skip this file entirely and configure the same settings by
+# hand in the Render dashboard (see README.md "Deploying to Render").
+services:
+  - type: web
+    name: ai-incident-intelligence
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    plan: free

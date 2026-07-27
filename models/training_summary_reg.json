@@ -1,0 +1,25 @@
+{
+  "baseline_mean_predictor": {
+    "mae": 17.895,
+    "rmse": 20.573,
+    "r2": 0.0
+  },
+  "best_model": "Linear Regression",
+  "comparison": {
+    "Linear Regression": {
+      "mae": 17.689,
+      "rmse": 20.345,
+      "r2": 0.019
+    },
+    "Random Forest": {
+      "mae": 17.778,
+      "rmse": 20.712,
+      "r2": -0.017
+    },
+    "Gradient Boosting": {
+      "mae": 17.735,
+      "rmse": 20.827,
+      "r2": -0.028
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "categorical_features": [
+    "Incident_Type",
+    "Assigned_Department",
+    "Location",
+    "Priority"
+  ],
+  "engineered_numeric_features": [
+    "report_hour",
+    "report_day_of_week",
+    "report_month",
+    "report_is_weekend"
+  ],
+  "target": "Resolution_Time_Hours",
+  "final_feature_columns": [
+    "Incident_Type_Application Bug",
+    "Incident_Type_Database Failure",
+    "Incident_Type_Network Outage",
+    "Incident_Type_Security Breach",
+    "Incident_Type_Server Crash",
+    "Assigned_Department_Database Admin",
+    "Assigned_Department_DevOps",
+    "Assigned_Department_IT Support",
+    "Assigned_Department_Network Team",
+    "Assigned_Department_Security Team",
+    "Location_Data Center A",
+    "Location_Data Center B",
+    "Location_Head Office",
+    "Location_Remote Site 1",
+    "Location_Remote Site 2",
+    "Priority_Critical",
+    "Priority_High",
+    "Priority_Low",
+    "Priority_Medium",
+    "report_hour",
+    "report_day_of_week",
+    "report_month",
+    "report_is_weekend"
+  ]
+}
