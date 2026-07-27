@@ -127,7 +127,7 @@ git commit -m "Initial commit: incident intelligence API"
 ```
 Create a new empty repo on github.com (no README/license), then:
 ```bash
-git remote add origin https://github.com/<your-username>/<repo-name>.git
+git remote add origin https://github.com/SakshiKshirsagar173/AI-Incident-Intelligence-System.git 
 git branch -M main
 git push -u origin main
 ```
