@@ -1,5 +1,8 @@
 # AI Incident Intelligence System
 
+## 🔗 Live Demo
+Try it now, no setup needed: https://ai-incident-intelligence-system.onrender.com/docs
+
 Predicts incident **Priority** and estimated **Resolution_Time_Hours** from
 ticket-intake fields, served via a FastAPI REST API.
 
